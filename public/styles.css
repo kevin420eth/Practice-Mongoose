@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 48, 56);
+    color:rgb(206, 206, 206);
+    text-align: center;
+}
+
+.forminput{
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+    text-align: start;
+}
+
+label{
+    margin-top: 0.65rem;
+}
+
+
+input,
+textarea{
+    color:black;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:576px) {
+    .forminput{
+        grid-template-columns: 350px;
+    }
+}
